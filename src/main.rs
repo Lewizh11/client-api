@@ -25,7 +25,7 @@ async fn execute(telephone: String, token: String , repeat: u64) -> Result<(), B
     let mut count_false: u64 = 0;
     let mut count_true: u64 = 0;
 
-    for _i in 0..repeat + 1 {
+    for _i in 0..repeat {
         println!("{} {}", "Testando com o token:".bright_yellow(), token.clone());
 
         let _req = reqs::request_to_api(
