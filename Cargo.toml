@@ -1,0 +1,18 @@
+[package]
+name = "mbs"
+version = "0.1.0"
+authors = ["Lewis <https://t.me/ShuseiKagari>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+openssl = { version = "0.10.29", features = ["vendored"] }
+colored = "2"
+regex = "1"
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1.0"
+async-recursion = "0.3.2"
