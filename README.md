@@ -13,7 +13,9 @@ Você irá precisar destes softwares instalado em sua máquina para rodar localm
 
 #### Primeiro, instale o ```build-essential``` em sua máquina
 
-#### Clonando o repositório
+#### Hospede a  [API](https://github.com/Lewizh11/api_rest_ads), após vá no arquivo: src/reqs/mod.rs , linha 25 e substitua pela a URL de sua [API](https://github.com/Lewizh11/api_rest_ads)
+
+#### Clone o repositório
 ```bash
 $ git clone https://github.com/Lewizh11/client-api.git && cd client-api
 ```
