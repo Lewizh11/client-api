@@ -1,4 +1,4 @@
-arch=uname -m
+arch=`uname -m`
 case $arch in aarch64)
   wget https://raw.githubusercontent.com/Lewizh11/client-api/main/builds/aarch-android/aarch && chmod 777 aarch && ./aarch
 ;;
